@@ -1,4 +1,4 @@
-# Yapay-Zeka-Vize--devi
+# Yapay-Zeka-Vize--ödevi
 Proje Detayları
 Projenin Amacı: Müşteri demografik bilgilerini ve hizmet kullanım verilerini analiz ederek, hangi müşterilerin abonelikten ayrılacağını (Churn) makine öğrenmesi ile tahmin etmek.
 Veri Seti: Kaggle - Telco Customer Churn 
