@@ -1,10 +1,16 @@
-# Yapay-Zeka-Vize--ödevi
-Proje Detayları
-Projenin Amacı: Müşteri demografik bilgilerini ve hizmet kullanım verilerini analiz ederek, hangi müşterilerin abonelikten ayrılacağını (Churn) makine öğrenmesi ile tahmin etmek.
-Veri Seti: Kaggle - Telco Customer Churn 
-Veri SetiKaynak Linki: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
-Problem Türü: Sınıflandırma (Classification)
-Yapılan İşlemler (Vize Aşaması)Genel Tanıtım: Veri setinin ilk satırları incelendi ve yapısı anlaşıldı.
-Eksik Veri Analizi: Veri setinde boş değer olup olmadığı kontrol edildi. 
-Aykırı Değer Analizi: Aylık ücretler gibi sayısal verilerdeki uç değerler kutu grafiği (boxplot) ile analiz edildi.
-Veri Görselleştirme: Müşteri kaybı dağılımı gibi özellikler görselleştirildi. 
+🏥 Diyabet Tahmin Sistemi (Yapay Zeka Vize Projesi)
+Bu proje, Pima Indians Diabetes veri setini kullanarak, bir bireyin sağlık verilerine dayanarak diyabet hastası olup olmadığını tahmin eden geliştirilmiş bir makine öğrenmesi modelidir.
+
+🚀 Projenin Öne Çıkan Özellikleri:
+Veri Analizi (EDA): Veriler arasındaki ilişkiler (Korelasyon) ısı haritalarıyla analiz edildi.
+
+Çoklu Model Karşılaştırma: Tek bir algoritma yerine; Logistic Regression, Random Forest ve SVM modelleri yarıştırılarak en iyi sonuç veren seçildi.
+
+Standartlaştırma: Verilerin model tarafından daha doğru işlenmesi için StandardScaler uygulandı.
+
+Karar Mekanizması Analizi: Modelin tahmini yaparken hangi özelliklere (Glikoz, BMI vb.) ne kadar önem verdiği görselleştirildi.
+
+📊 Kullanılan Teknolojiler:
+Dil: Python
+
+Kütüphaneler: Pandas, Scikit-Learn, Seaborn, Matplotlib
